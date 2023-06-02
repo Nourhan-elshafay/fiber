@@ -1,0 +1,256 @@
+/*--------------------nav--------------------*/
+.main{
+      width: 100%;
+      background-color: #fbf8f3;
+      height: 70px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+}
+.main .nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 1.5% ;
+}
+.main .nav .four{
+      display: none;
+}
+.main .nav a{
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      transition: .3s;
+}
+.main .nav .two  a:hover{
+      transition: .3s;
+      color: #0693a8;
+}
+.main .nav .one {
+      font-weight: bolder;
+      font-size: 20px;
+}
+.main .nav .three {
+      font-weight: bolder;
+      font-size: 16px;
+      margin-top: -8px;
+}
+.main .nav .three  a:hover{
+      transition: .3s;
+      color: #0693a8;
+}
+
+.main .nav .three button{
+      background-color: #4d13d1;
+      transition: .3s;
+      border-style: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 10px 5px;
+}
+.main .nav .three button:hover{
+      transition: .3s;
+      background-color: #0693a8;
+}
+@media(max-width:800px){
+      .main .nav .two{
+            display: none;
+      }
+      .main .nav .three{
+            display: none;
+      }
+      .main .nav .four{
+            display: contents;
+            font-weight: bolder;
+            font-size: 30px;
+            width:40%
+      }
+      .main .nav{
+            justify-content: space-between;
+            padding:4% 8% ;
+      }
+}
+/*---------------------------container-------*/
+.bab{
+      padding: 10% 5% 4% 5%;
+      background-color: #fbf8f3;
+      width: 100%;
+}
+.bab .container .star img{ 
+      width: 100%;
+}
+.bab .flow{
+      padding-top: 8%;
+}
+.bab .flow .sec button{
+      background-color: #4d13d1;
+      transition: .3s;
+      border-style: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 15px;
+      padding: 10px;
+}
+.bab .flow .sec button:hover{
+      transition: .3s;
+      background-color: #0693a8;
+}      
+.bab .flow .sec a{
+      color: #4d13d1;
+      font-weight: 600;
+      transition: .3s;
+      padding: 15px;
+}
+.bab .flow .sec a:hover{
+      transition: .3s;
+      color: #0693a8;
+}
+.bab .flow h5 i {
+      background-color: #28a745;
+      border-radius: 50%;
+      color: white;
+      padding: 5px;
+      margin: 5% 0%;
+}
+/*--------------------boss------------------*/
+.boss .part{
+      margin:4% 12% ;
+}
+.boss .part h5{
+      color: #4d13d1;
+}
+.boss .part1 i{
+      color: #4d13d1;
+      font-size: 35px;
+      margin-bottom: 15px;
+}
+@media(max-width:800px){
+      .boss .part1{
+            margin: 7%;
+      }
+}
+/*-------------------------try-------------------*/
+.try{
+      background-color: #4d13d1;
+      color: white;
+      margin:4% 10% ;
+      width: 80%;
+      border-radius: 10px;
+}
+.try .sth{
+      padding: 8% 0%;
+}
+.try .sth button{
+      background-color: white;
+      color: #4d13d1;
+      font-size: 18px;
+      font-weight: 600;
+      border-style: none;
+      border-radius: 5px;
+      transition: .3s;
+      padding: 10px;
+}
+.try .sth button:hover{
+      transition: .3s;
+      color: white;
+      background-color:#0693a8;
+}
+.try img{
+      width:100%;
+      padding-top: 10%;
+}
+@media(max-width:800px){
+      .try {
+            padding: 0% 10%;
+            width: 90%;
+            margin: 4% 5%;
+            padding-top: 10%;
+      }
+      .try .sth{
+            padding: 5%;
+      }
+}
+/*----------------------profile---------------*/
+.profile{
+      padding: 5% 0%;
+      width: 100%;
+}
+.profile .part3{
+      border: grey;
+      border-style: solid;
+      margin: .5%;
+      border-radius: 10px;
+      padding: 2%;
+}
+.profile .part3 .prof{
+      display: flex;
+}
+.profile .part3 .prof div{
+      padding: 8px;
+}
+.profile .part3 .prof div a{
+      text-decoration: none;
+      color: #4d13d1;
+      font-weight: 600;
+      transition: .3s;
+}
+.profile .part3 .prof div a:hover{
+      transition: .3s;
+      color: #0693a8;
+}
+.profile .part3 button{
+      border: grey;
+      border-style: solid;
+      margin: 10% ;
+      border-radius: 5px;
+      padding: 4%;
+      width: 80%;
+      color: #4d13d1;
+      background-color: #fff;
+      transition: .3s;
+      font-weight: 600;
+}
+.profile .part3 button:hover{
+      transition: .3s;
+      color: #fff;
+      background-color: #4d13d1;
+}
+@media(max-width:800px){
+      .profile .part3{
+            width:80%;
+      }
+}
+/*-----------------------footer-----------------*/
+footer{
+      width: 100%;
+      background-color: #fbf8f3;
+      padding: 4%;
+}
+footer .sec0{
+      width: 90%;
+      margin: auto;
+}
+footer .sec0 h6{
+      font-weight: 700;
+}
+footer .sec0 a{
+      color: black;
+      line-height: 2;
+      text-decoration: none;
+      transition: .3s;
+}
+footer .sec0 a:hover{
+      transition: .3s;
+      color: #0693a8;
+}
+@media(max-width:800px){
+      footer .sec0{
+            text-align: center;
+      }
+      footer .sec1 , .sec2{
+            padding: 5%;
+      }
+}
